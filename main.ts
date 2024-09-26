@@ -7,6 +7,7 @@ load dependency
 
 //% color="#31C7D5" weight=10 icon="\uf06e"
 namespace apds9960 {
+    const APDS9960_ID_1 = 0xA8
     const ADDR = 0x39
     const APDS9960_RAM = 0x00
     const APDS9960_ENABLE = 0x80
@@ -23,7 +24,7 @@ namespace apds9960 {
     const APDS9960_PPULSE = 0x8E
     const APDS9960_CONTROL = 0x8F
     const APDS9960_CONFIG2 = 0x90
-    const APDS9960_ID = 0xA8
+    const APDS9960_ID = 0x92
     const APDS9960_STATUS = 0x93
     const APDS9960_CDATAL = 0x94
     const APDS9960_CDATAH = 0x95
