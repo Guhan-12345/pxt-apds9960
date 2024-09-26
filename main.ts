@@ -23,7 +23,7 @@ namespace apds9960 {
     const APDS9960_PPULSE = 0x8E
     const APDS9960_CONTROL = 0x8F
     const APDS9960_CONFIG2 = 0x90
-    const APDS9960_ID = 0x92
+    const APDS9960_ID = 0xA8
     const APDS9960_STATUS = 0x93
     const APDS9960_CDATAL = 0x94
     const APDS9960_CDATAH = 0x95
